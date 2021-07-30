@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1944708377",
+    "project_id": "superappon",
+    "storage_bucket": "superappon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1944708377:android:85aea3cc9ca30bbf3dd188",
+        "android_client_info": {
+          "package_name": "com.vndirect.stockbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1944708377-120r4h7r2h5ki7tt8keoe4nimo2foadg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlO_q-KyVYWubHAZvtTFEbxspbE6khKfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1944708377-120r4h7r2h5ki7tt8keoe4nimo2foadg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1944708377-4smr6qpfnhl38nvnvhjijve167m64v4g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vndirect.stockbook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
