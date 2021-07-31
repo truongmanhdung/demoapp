@@ -13,7 +13,7 @@
  */
 
 import createFilteredReducer from '../../../vala-base/reducers/createFilteredReducer';
-import {objectReducer} from '../../../vala-base/reducers';
+import {edgeReducer} from '../../../vala-base/reducers';
 import storeConfig from '../../../vala-base/configs/storeConfig';
 
 const add = (state, action) => {
@@ -21,10 +21,8 @@ const add = (state, action) => {
   return state;
 };
 
-const _stateKey = storeConfig.hello;
-
-const helloReducer = createFilteredReducer(objectReducer, action => {
-
+const _stateKey = storeConfig.helloIds;
+const helloIdsReducer = createFilteredReducer(edgeReducer, action => {
   if (!action.condition || !action.condition.stateKey) {
     return false;
   }
@@ -33,4 +31,4 @@ const helloReducer = createFilteredReducer(objectReducer, action => {
   return stateKey === _stateKey && statePath.length === 0;
 });
 
-export default helloReducer;
+export default helloIdsReducer;
